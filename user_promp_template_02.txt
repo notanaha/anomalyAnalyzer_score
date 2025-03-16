@@ -1,0 +1,9 @@
+You have six time-series datasets with multiple variables indicating anomalies.
+The following list indicates the file path and its anomaly type with the format of [(<path to a file>, <anomaly type>), ...].
+anomaly_files = [
+    ("filename", "label"),
+    ..........
+]
+
+You are helping to determine which anomaly type a given test file belongs to.
+The path of the "test_file" is "./data/test_data.csv".
